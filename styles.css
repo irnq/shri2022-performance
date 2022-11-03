@@ -453,16 +453,23 @@ body {
   background-size: contain;
 }
 
+.event__icon--svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.event__icon--use {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 .event__icon_temp {
   background-image: url(assets/icon_temperature.svg);
 }
 
 .event__icon_temp2 {
   background-image: url(assets/icon_temperature_2.svg);
-}
-
-.event__icon_light {
-  background-image: url(assets/icon_sun.svg);
 }
 
 .event__icon_light2 {
